@@ -1,0 +1,25 @@
+# Mergin CSV files
+
+## Introduction
+This Go program has been coded for an interview technical test for WP-Engine
+
+#### Why GoLang
+I have been working in GoLang only for two months since now but I find it a very
+efficient and versatile language. It allows me to write good code in a short
+period of time. Also, this is a language that is not very used commonly so it allows 
+me to show I can offer new and different things to my next new company.
+
+#### What it does
+This program takes to arguments: an **input** file and an **output** file.
+It will iterates throw the input file's records and making a request to its url
+to have extra data and create a new file (the output file given as parameter) with
+the current data and the new data.
+
+## How to run it
+**First of all you need to have Go installed.**
+
+1. Compile the program using the CLI:
+`go build wpe_merge.go`
+
+2. Run the program:
+`./wpe_merge <inputFileName> <outputFileName>`
